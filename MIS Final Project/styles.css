@@ -1,0 +1,150 @@
+/* styles.css */
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: whitesmoke;
+    background-size: cover; 
+    background-position: center; 
+    color: black; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+nav ul li a:hover {
+background-color: lightgray;
+}
+.centeredimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/04/57/92/32/360_F_457923238_8zmuShXTsS2CdsXisZSIutaBqKzl5haw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    color: lightyellow;
+}
+a{
+display:block;
+text-align: center;
+ }
+ main section p{
+    color: whitesmoke;
+    text-align: center;
+ }
+ main section h2{
+    color: whitesmoke;
+    text-align: center;
+ }
+ section ul li{
+    color: whitesmoke;
+    text-align: center;
+ }
+ section ol li{
+    color: whitesmoke;
+    text-align: center;
+ }
+table {
+    width: 80%;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.formatted-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #333333; /* Dark gray background for the table */
+    border: 1px solid #444444; /* Slightly lighter border for visibility */
+}
+
+.formatted-table th {
+    background-color: #222222; /* Darker header background */
+    color: white; /* Keeps the text color white for contrast */
+    padding: 10px;
+    text-align: center;
+}
+
+.formatted-table td {
+    padding: 10px;
+    border: 1px solid #444444; /* Slightly lighter border for table cells */
+    color: white; /* Ensures table text is visible on the dark background */
+}
+
+.formatted-table tr:nth-child(even) {
+    background-color: #444444; /* Slightly lighter dark gray for alternate rows */
+}
+
+.formatted-table tr:hover {
+    background-color: #555555; /* Slightly lighter shade on hover */
+    cursor: pointer; /* Makes the rows feel clickable */
+}
+
+ul, ol {
+    padding-left: 0px; 
+    list-style-position: inside; 
+}
+
+footer {
+    background-color: grey; /* Set the footer's background color */
+    color: white; /* Text color for contrast */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add padding for spacing */
+    position: relative; /* Ensure it stays at the bottom of the content */
+    bottom: 0; /* Only matters for fixed or sticky footers */
+    width: 100%; /* Make it span the full width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+main section h2 {
+    font-family: Arial, sans-serif; /* Sets the font to Arial */
+    color: whitesmoke;             /* Keeps the text color */
+    text-align: center;            /* Centers the text */
+}
+
+html {
+    scroll-behavior: smooth;
+}
